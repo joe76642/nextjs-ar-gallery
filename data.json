@@ -1,58 +1,56 @@
 {
   "artist": {
-    "name": "Michael Gold",
+    "name": "Joe Chang",
     "avatar": "/images/avatar.jpg",
-    "shortBio": "Generative Artist",
+    "shortBio": "3D Generalist",
     "socials": [
-      { "icon": "FaHome", "url": "https://mike.gold" },
-      { "icon": "FaTwitter", "url": "https://twitter.com/michaelgold" },
-      { "icon": "FaGithub", "url": "https://github.com/michaelgold" },
-      { "icon": "FaLinkedin", "url": "https://linkedin.com/in/gold1" },
-      { "icon": "FaUniversity", "url": "https://sva.edu/faculty/michael-gold" }
+      { "icon": "FaHome", "url": "https://b10510124.wixsite.com/chiaochang" },
+      { "icon": "FaGithub", "url": "https://github.com/joe76642" },
+      { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/joe-chang-503a02221/" }
     ]
   },
   "project": {
-    "name": "AR Gallery Example"
+    "name": "Sci-fi Alphabets"
   },
   "models": [
     {
-      "name": "Gold Cube",
-      "glbFile": "/assets/gold-cube.glb",
+      "name": "A",
+      "glbFile": "/assets/A.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "gold" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "shape", "value": "A" },
+        { "trait_type": "Complexity", "value": "1" },
+        { "trait_type": "emission color", "value": "yellow" },
+        { "trait_type": "main color", "value": "dark gray" }
       ]
     },
     {
-      "name": "Silver Cube",
-      "glbFile": "/assets/silver-cube.glb",
+      "name": "B",
+      "glbFile": "/assets/B.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "silver" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "shape", "value": "B" },
+        { "trait_type": "Complexity", "value": "2" },
+        { "trait_type": "emission color", "value": "blue" },
+        { "trait_type": "main color", "value": "light gray" }
       ]
     },
     {
-      "name": "Red Cube",
-      "glbFile": "/assets/red-cube.glb",
+      "name": "C",
+      "glbFile": "/assets/C.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "red" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "shape", "value": "C" },
+        { "trait_type": "Complexity", "value": "1" },
+        { "trait_type": "emission color", "value": "red" },
+        { "trait_type": "main color", "value": "dark gray" }
       ]
     },
     {
-      "name": "Green Cube",
-      "glbFile": "/assets/green-cube.glb",
+      "name": "D",
+      "glbFile": "/assets/D.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "green" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "shape", "value": "D" },
+        { "trait_type": "Complexity", "value": "2" },
+        { "trait_type": "emission color", "value": "green" },
+        { "trait_type": "main color", "value": "light gray" }
       ]
     }
   ]
